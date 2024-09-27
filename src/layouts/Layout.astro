@@ -106,9 +106,9 @@ const { title } = Astro.props;
 							src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
 							alt=""
 						/>
-						<div class="flex justify-evenly mt-3">
+						<div class="flex justify-evenly mt-3 ">
 							<ul
-								class="text-sky-600 font-semibold underline decoration-1"
+								class="text-sky-600 font-semibold underline decoration-1 ml-4"
 							>
 								TIENDA
 							</ul>
@@ -129,18 +129,19 @@ const { title } = Astro.props;
 
 		<div class="">
 			<div
-				class="bg-red-700 pt-8 h-[28rem] bg-[url(https://shared.akamai.steamstatic.com/store_item_assets/steam/clusters/frontpage/728facaee8e82a3af6cef6a6/page_bg_spanish.jpg?t=1726694657)] bg-cover"
+				class="bg-red-700 pt-8 h-[28rem] bg-[url(https://shared.akamai.steamstatic.com/store_item_assets/steam/clusters/frontpage/84afb9edc1f6cf8b779de9de/page_bg_spanish.jpg?t=1727393025)] bg-cover"
 			>
 				<header
-					class="bg-blue-400/60 flex justify-stretch max-w-5xl mx-auto h-8"
+					class="bg-blue-500/50 flex justify-stretch max-w-[940px] mx-auto h-8"
 				>
-					<li class="text-white list-none font-medium">Tu tienda</li>
-					<li class="ml-5 text-white list-none font-medium">Nuevo y destacable</li>
-					<li class="ml-5 text-white list-none font-medium">Categorias</li>
-					<li class="ml-5 text-white list-none font-medium">Tienda de puntos</li>
-					<li class="ml-5 text-white list-none font-medium">Noticias</li>
-					<li class="ml-5 text-white list-none font-medium">Laboratorios</li>
-					<li class="ml-5 text-white list-none font-medium"></li>
+					<li class="ml-4 mt-1 text-white list-none font-medium text-sm ">Tu tienda</li>
+					<li class="ml-5 mt-1 text-white list-none font-medium text-sm">Nuevo y destacable</li>
+					<li class="ml-5 mt-1 text-white list-none font-medium text-sm">Categorias</li>
+					<li class="ml-5 mt-1 text-white list-none font-medium text-sm">Tienda de puntos</li>
+					<li class="ml-5 mt-1 text-white list-none font-medium text-sm">Noticias</li>
+					<li class="ml-5 mt-1 text-white list-none font-medium text-sm">Laboratorios</li>
+					<li class="ml-5 mt-1 text-white list-none font-medium text-sm"></li>
+
 				</header>
 			</div>
 		</div>
@@ -148,12 +149,16 @@ const { title } = Astro.props;
 			<div class="ml-60 mr-60 mx-auto">
 				<div class="bg-red-600 h-[90rem] flex justify-stretch">
 					<div class="w-[18rem] bg-slate-800">
-						<h1 class="mt-28 text-white">TARJETAS DE REGALO STEAM</h1>
+						<div>
+							<img class="mt-12 h-[4.5rem] w-[12rem] " src="https://store.akamai.steamstatic.com/public/images//gift/steamcards_promo_03.png?v=1" alt="">
+						</div>
+						<h1 class="mt-1 font-semibold text-white">TARJETAS DE REGALO STEAM</h1>
 						<h2 class="text-white">regalo diversion</h2>
 						<h2 class="mt-8 text-white">VISTOS RECIENTEMENTE</h2>
 						<a href="" class="text-white">EA SPORTS FC</a>
 					</div>
 					<div class="w-[71rem] bg-slate-800">
+					
 						<h2 class="mt-5 text-white ">DESTACADOS Y RECOMENDADOS</h2>
 						<div class="mt-2 bg-slate-300 h-[20rem] bg-[url(https://phantom-marca.unidadeditorial.es/6435a22c8534c742c96823e61494c600/crop/0x0/877x493/resize/828/f/jpg/assets/multimedia/imagenes/2021/12/23/16402604014730.jpg)] bg-[length:80%_100%] "></div>
 						<div class="bg-slate-300 h-[10rem] mt-10 bg-[url(https://codigoesports.com/wp-content/uploads/2023/11/image-46-750x239.png)] bg-[length:110%_100%] "></div>
@@ -162,7 +167,7 @@ const { title } = Astro.props;
 			</div>
 		</div>
 
-		<div
+		<!-- <div
 			class="group items-center duration-400 transition-colors hover:bg-blue-600 rounded py-2 px-4 text-white/80 inline-block bg-blue-500"
 		>
 			<svg
@@ -195,6 +200,56 @@ const { title } = Astro.props;
 			</svg>
 
 			presioname
-		</div>
+
+		</div> -->
+		<footer class="h-[12rem] bg-black">
+			<div class="pt-3 flex justify-center">
+				<h1 class="text-sky-500 font-normal text-[1.5rem]">Buscando recomendaciones?</h1>
+				
+			</div>
+			<div class="pt-3 flex justify-center">
+				<h1 class="text-gray-400 font-normal">Inicia sesión para ver recomendaciones personalizadas</h1>
+				
+			</div>
+			<div class="pt-3 flex justify-center">
+				<button class="bg-lime-700 h-7 w-32 rounded-sm text-white/50">Iniciar sesion</button>
+				
+			</div>
+			<div class="pt-3 flex justify-center">
+				<h1 class="text-gray-400 font-normal">O <a class="text-white">regístrate</a> y únete a Steam de forma gratuita</h1>
+				
+			</div>
+
+		</footer>
+
+		<footer class="bg-zinc-900 h-[16rem] pt-9 ">
+			<div class="border-t border-gray-500 max-w-5xl mx-auto"></div>
+			<div class="max-w-5xl flex justify-between mt-2 mx-auto">
+				<img class="h-[2rem] w-[8rem]" src="https://store.akamai.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+				<img class="h-[2rem] w-[6rem]" src="https://store.akamai.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="">
+			
+			</div>
+			<div class="max-w-5xl flex justify-center mt-2 mx-auto">
+				<p class="text-white text-sm ">© 2024 Valve Corporation. Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en EE. UU. <br> y otros países. 
+					Todos los precios incluyen IVA (donde sea aplicable). Política de Privacidad   |   Información legal   |   Acuerdo de Suscriptor a Steam   |   Reembolsos   |   Cookies
+				</p>
+
+			</div>
+			
+			<div class="mt-2 border-t border-gray-500 max-w-5xl mx-auto"></div>
+			<div class="mt-2 text-sm flex justify-between max-w-5xl mx-auto">
+				<li class="ml-2 text-white list-none">Acerca de Valve</li>
+				<li class="ml-2 text-white list-none">Empleo</li>
+				<li class="ml-2 text-white list-none">Steamworks</li>
+				<li class="ml-2 text-white list-none">Distribución de Steam</li>
+				<li class="ml-2 text-white list-none">Soporte</li>
+				<li class="ml-2 text-white list-none">Tarjetas regalo</li>
+				<li class="ml-2 text-white list-none">Steam</li>
+				<li class="ml-2 text-white list-none">@steam</li>
+			</div>
+
+		</footer>
+
+		
 	</body>
 </html>
